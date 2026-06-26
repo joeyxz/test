@@ -1,6 +1,6 @@
 {
   "name": "tizenbrew-romm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "TizenBrew wrapper for RomM — self-hosted ROM manager",
   "packageType": "mods",
   "appName": "RomM",
