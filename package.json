@@ -1,25 +1,27 @@
 {
-  "name": "tizenbrew-romm",
-  "version": "1.0.1",
-  "description": "TizenBrew wrapper for RomM — self-hosted ROM manager",
-  "packageType": "mods",
+  "name": "romm-tizen",
+  "version": "1.0.0",
+  "description": "A TizenBrew module for browsing and downloading ROMs from a self-hosted RomM server",
+  "main": "app/index.html",
+  "packageType": "app",
   "appName": "RomM",
-  "websiteURL": "http://192.168.1.101:3333/console",
-  "main": "index.js",
-  "evaluateScriptOnDocumentStart": true,
+  "appPath": "app/index.html",
   "keys": [
-    "ArrowUp",
-    "ArrowDown",
-    "ArrowLeft",
-    "ArrowRight",
-    "Enter",
-    "Return",
-    "XF86Back",
-    "XF86AudioPlay",
-    "XF86AudioPause",
-    "XF86AudioStop",
-    "XF86PlayBack"
+    "MediaPlay",
+    "MediaPause",
+    "MediaStop",
+    "MediaPlayPause",
+    "MediaRewind",
+    "MediaFastForward",
+    "ColorF0Red",
+    "ColorF1Green",
+    "ColorF2Yellow",
+    "ColorF3Blue"
   ],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/romm-tizen.git"
+  },
+  "author": "YOUR_USERNAME",
   "license": "MIT"
 }
