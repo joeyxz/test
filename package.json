@@ -1,6 +1,6 @@
 {
   "name": "romm-tizen",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A TizenBrew module for browsing and downloading ROMs from a self-hosted RomM server",
   "main": "app/index.html",
   "packageType": "app",
